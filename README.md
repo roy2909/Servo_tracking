@@ -20,5 +20,5 @@ https://github.com/user-attachments/assets/3fb4d5b0-2746-4ac8-b335-ec20a7884e06
 # Usage
 1. Upload the Arduino code to the Arduino board using the Arduino IDE.
 2. Modify the configuration file to set the camera path, custom model path and other parameters.
-3. Run the Python script `pyhton3 boat_tracking_servo.py` to start the boat tracking system.
+3. Run the Python script `python3 boat_tracking_servo.py` to start the boat tracking system.
 
