@@ -308,7 +308,7 @@ class PTZTracker:
         cfg = self.cfg
 
         # Optional MP4 recording 
-        self.rec = cv2.VideoWriter("output.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 20, (self.fw, self.fh))
+        self.rec = cv2.VideoWriter("output.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 30, (self.fw, self.fh))
 
         while True:
             ret, frame = self.cap.read()
